@@ -28,7 +28,7 @@ import { AnnaComponent } from "./views/profile/anna.component";
 import { DougComponent } from "./views/profile/doug.component";
 import { JordanComponent } from "./views/profile/jordan.component";
 import { MattComponent } from "./views/profile/matt.component";
-
+import { GodfatherComponent } from "./views/profile/godfather.component";
 
 // components for views and layouts
 
@@ -81,7 +81,8 @@ import { SidebarComponent } from "./components/sidebar/sidebar.component";
     AnnaComponent,
     DougComponent,
     JoshComponent,
-    JordanComponent
+    JordanComponent,
+    GodfatherComponent,
   ],
   imports: [
     BrowserModule,     
