@@ -1,8 +1,7 @@
 {
-  "name": "notus-angular",
+  "name": "rentax",
   "version": "1.0.0",
-  "description": "Notus Angular - Free Tailwind CSS UI Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-angular",
+  "description": "Rentax Corporations - This is a game for friends, not real!",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
