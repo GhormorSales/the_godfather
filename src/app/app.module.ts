@@ -21,6 +21,14 @@ import { LoginComponent } from "./views/auth/login/login.component";
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
+import { SamComponent } from "./views/profile/sam.component";
+import { JoshComponent } from "./views/profile/josh.component";
+import { TaylorComponent } from "./views/profile/taylor.component";
+import { AnnaComponent } from "./views/profile/anna.component";
+import { DougComponent } from "./views/profile/doug.component";
+import { JordanComponent } from "./views/profile/jordan.component";
+import { MattComponent } from "./views/profile/matt.component";
+
 
 // components for views and layouts
 
@@ -67,6 +75,13 @@ import { SidebarComponent } from "./components/sidebar/sidebar.component";
     IndexComponent,
     LandingComponent,
     ProfileComponent,
+    SamComponent,
+    MattComponent,
+    TaylorComponent,
+    AnnaComponent,
+    DougComponent,
+    JoshComponent,
+    JordanComponent
   ],
   imports: [
     BrowserModule,     
