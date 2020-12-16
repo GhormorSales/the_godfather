@@ -16,6 +16,15 @@ import { LoginComponent } from "./views/auth/login/login.component";
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
+import { SamComponent } from "./views/profile/sam.component";
+import { AnnaComponent } from "./views/profile/anna.component";
+import { MattComponent } from "./views/profile/matt.component";
+import { TaylorComponent } from "./views/profile/taylor.component";
+import { JordanComponent } from "./views/profile/jordan.component";
+import { GodfatherComponent } from "./views/profile/godfather.component";
+import { JoshComponent } from "./views/profile/josh.component";
+import { DougComponent } from "./views/profile/doug.component";
+
 
 const routes: Routes = [
   // admin views
@@ -37,8 +46,15 @@ const routes: Routes = [
       { path: "", redirectTo: "login", pathMatch: "full" },
     ],
   },
-  // no layout views
   { path: "profile", component: ProfileComponent },
+  { path: "profile/sam", component: SamComponent },
+  { path: "profile/doug", component: DougComponent },
+  { path: "profile/josh", component: JoshComponent },
+  { path: "profile/taylor", component: TaylorComponent },
+  { path: "profile/anna", component: AnnaComponent },
+  { path: "profile/godfather", component: GodfatherComponent },
+  { path: "profile/jordan", component: JordanComponent },
+  { path: "profile/matt", component: MattComponent },
   { path: "landing", component: LandingComponent },
   { path: "", component: IndexComponent },
   { path: "**", redirectTo: "", pathMatch: "full" },
