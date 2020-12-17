@@ -42,6 +42,7 @@
               </label>
               <input
                 type="email"
+                id="email"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Email"
               />
@@ -56,6 +57,7 @@
               </label>
               <input
                 type="password"
+                id="password"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Password"
               />
@@ -77,6 +79,7 @@
               <button
                 class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                 type="button"
+                (click)="checkPassword()"
               >
                 Sign In
               </button>
@@ -86,12 +89,12 @@
       </div>
       <div class="flex flex-wrap mt-6 relative">
         <div class="w-1/2">
-          <a href="javascript:void(0)" class="text-gray-300">
+          <a class="text-gray-300">
             <small>Forgot password?</small>
           </a>
         </div>
         <div class="w-1/2 text-right">
-          <a [routerLink]="['/auth/register']" class="text-gray-300">
+          <a class="text-gray-300">
             <small>Create new account</small>
           </a>
         </div>

@@ -1,7 +1,7 @@
 {
   "name": "rentax",
   "version": "1.0.0",
-  "description": "Rentax Corporations - This is a game for friends, not real!",
+  "description": "Rentax Corporations - This is a game for friends, not",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

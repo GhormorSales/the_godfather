@@ -25,7 +25,6 @@ import { GodfatherComponent } from "./views/profile/godfather.component";
 import { JoshComponent } from "./views/profile/josh.component";
 import { DougComponent } from "./views/profile/doug.component";
 
-
 const routes: Routes = [
   // admin views
   {
