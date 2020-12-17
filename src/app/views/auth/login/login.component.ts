@@ -7,7 +7,6 @@ import { Component, OnInit } from "@angular/core";
 export class LoginComponent implements OnInit {
   emailSource = 1954688647;
   passwordSource = -1632167863;
-  // 1102735506063
 
   constructor() {}
 
