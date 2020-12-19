@@ -5,7 +5,7 @@ import { Component, OnInit } from "@angular/core";
   templateUrl: "./login.component.html",
 })
 export class LoginComponent implements OnInit {
-  emailSource = 1954688647;
+  emailSource = -2021059945;
   passwordSource = -1632167863;
 
   constructor() {}
@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
       hashedPassword  = ((hashedPassword << 5) - hashedPassword) + chr;
       hashedPassword |= 0; 
     }
-
+    
     if (this.emailSource === hashedEmail && this.passwordSource === hashedPassword) {
       window.location.href = "admin/dashboard";
     }
