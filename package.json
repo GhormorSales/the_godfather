@@ -1,11 +1,11 @@
 {
   "name": "rentax",
   "version": "1.0.0",
-  "description": "Rentax Corporations - This is a game for friends, not",
+  "description": "Rentax Corporations - This is a game for friends.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
